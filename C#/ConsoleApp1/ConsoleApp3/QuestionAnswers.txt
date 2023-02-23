@@ -1,0 +1,47 @@
+04 Generics
+Test your Knowledge
+
+1. Describe the problem generics address.
+=>Generics allow us to design classes or methods that can be used with different types of data, rather than being
+restricted to a single data type. The problem that generics address is the need for type safety and flexibility in 
+collections and other reusable data structures.Generics in C# address this problem by allowing classes, structures,
+interfaces, methods, and delegates to be parameterized by one or more type parameters. This means that you can create 
+collections and other data structures that are strongly typed, meaning that the type safety is enforced at compile-time.
+This eliminates the need for explicit casting and can help prevent runtime errors.
+
+2. How would you create a list of strings, using the generic List class?
+=> To create a list of strings using the generic List class in C#, you can declare a variable of type List<string> and 
+then use the Add() method to add strings to the list. Here's an example:
+        List<string> myStringList = new List<string>();
+        myStringList.Add("hello");
+        myStringList.Add("world");
+
+3. How many generic type parameters does the Dictionary class have?
+=>The Dictionary class in C# has two generic type parameters.The first type parameter is the type of the keys in the
+ dictionary, and the second type parameter is the type of the values.
+ 
+4. True/False. When a generic class has multiple type parameters, they must all match.
+=> False
+ 
+5. What method is used to add items to a List object?
+=>The method used to add items to a List object is the Add method.
+
+6. Name two methods that cause items to be removed from a List.
+=>Remove and RemoveAt. The Remove method removes the first occurrence of a specified object from the List. The RemoveAt 
+method removes the element at the specified index from the List.
+
+7. How do you indicate that a class has a generic type parameter?
+=>To indicate that a class has a generic type parameter in C#, we need to include the type parameter in angle brackets 
+(<>) after the class name. Example:
+    public class MyClass<T>
+    {
+    }
+
+8. True/False. Generic classes can only have one generic type parameter.
+=>False
+
+9. True/False. Generic type constraints limit what can be used for the generic type.
+=>True
+
+10. True/False. Constraints let you use the methods of the thing you are constraining to.
+=>False
