@@ -1,0 +1,56 @@
+header{
+    background-color: rgb(16, 52, 99);
+}
+.top, .bottom{
+    display: flex;
+}
+.top{
+    justify-content: space-between;
+}
+.bottom{
+    margin-left: 76%;
+    padding-top: 16px;
+    color: white;
+}
+.top>div{
+    margin-right: 60px;
+}
+.logo{
+    background-color: rgb(93, 70, 205);
+    margin: 10px 10px 10px 30px;
+    margin-top: -24px;
+}
+.user{
+    padding-right:7%;
+}
+div>p>a{
+    text-decoration: none;
+    color:white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+div>p{
+    color:white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+.dropdown-menu{
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+  background-color:rgb(52, 107, 180);
+  text-decoration: none;
+}
+.dropdown-menu{
+     list-style-type: none;
+}
+
+.dropdown-menu a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+

@@ -1,0 +1,73 @@
+.button{
+    background-image: url('https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?w=2000&t=st=1678283528~exp=1678284128~hmac=a41feceeb6e7121d138d973427999a72507671471c980c495dd56227a408f6b6');
+    background-size: cover;
+    height: 70px; 
+    position: relative;
+}
+.button>button{
+    position: absolute;
+    margin-left: 88%; 
+    margin-top: 20px;
+    background-color: orange;
+    color: white;
+    padding: 5px;
+}
+.body{
+    background-color: rgb(243, 243, 240);
+    padding: 40px 80px 40px 80px;
+}
+.news{
+    color: rgb(53, 53, 245);
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 550;
+    padding-bottom: 10px;
+}
+.playcards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.playcards>div{
+    background-color: white;
+    margin-right:35px;
+    width: 500px;
+    height: 400px;
+    padding: 19px;
+    overflow: auto;
+}
+.playcards>div>h3{
+    color:rgb(39, 39, 113);
+    font-size: 15px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.date{
+    margin-left: 270px;
+    color:rgb(108, 117, 117);
+    font-family:'Times New Roman', Times, serif;
+}
+
+.publisher{
+    color:rgb(108, 117, 117);
+    border-bottom: 1px solid rgb(152, 156, 156);
+    padding-bottom: 10px;
+}
+
+.playcards>div>img{
+  margin-left: 80px;
+}
+
+.list>ul{
+    display: flex;
+    list-style-type: none;
+    
+}
+.list>ul>li{
+    padding: 4px;
+    background-color: rgb(27, 118, 216);
+    margin: 1px;
+    color: white;
+}
+.list>ul>li:first-child{
+    background-color: orange;
+}

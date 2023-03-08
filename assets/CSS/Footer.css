@@ -1,0 +1,80 @@
+
+.top, .bottom, .social-icons{
+    display: flex;
+    justify-content:space-around;
+}
+.top{
+    background-color: rgb(75, 78, 78);
+}
+/* Cooperate office */
+.top div:first-child>ul li{
+    font-family:'Courier New', Courier, monospace;
+    font-size: small;
+    padding: 3px;
+}
+.top div:first-child>ul li:first-child{
+    font-weight: 900;
+}
+/* Services */
+.top div:nth-child(2)>ul li{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    padding: 3px;
+    border-bottom: 1px solid rgb(100, 97, 97);
+    padding-right:  90px;
+    padding-bottom: 15px;
+}
+.top div:nth-child(2)>ul li:first-child{
+    font-size: large;
+    font-weight: 500;
+    border: none;
+}
+.top div:nth-child(2)>ul li:nth-child(7){
+    border: none;
+}
+
+/* Resources */
+.top div:nth-child(3)>ul li{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    padding: 3px;
+    border-bottom: 1px solid rgb(100, 97, 97);
+    padding-right:  90px;
+    padding-bottom: 15px;
+}
+.top div:nth-child(3)>ul li:first-child{
+    font-size: large;
+    font-weight: 500;
+    border: none;
+}
+.top div:nth-child(3)>ul li:nth-child(7){
+    border: none;
+}
+/* Location */
+
+.top div:nth-child(4)>ul li:first-child{
+    font-size: large;
+    font-weight: 500;
+    border: none;
+}
+
+.bottom{
+    background-color:rgb(33, 18, 18); 
+    color: white;
+}
+li{
+    list-style-type: none;
+    color: white;
+}
+.social-icons a{
+   padding: 14px;
+}
+.social-icons a i{
+    color:white;
+}
+.bottom div:first-child{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}

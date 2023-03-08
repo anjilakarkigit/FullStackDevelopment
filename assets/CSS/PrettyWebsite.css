@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-image: url("https://wallup.net/wp-content/uploads/2019/10/288743-sunrise-landscapes-nature-trees-forests-grass-summer-bench-virtual.jpg");
+    background-size: cover;
+    height: 290px; 
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    position: relative;
+}
+.heading{
+    font-weight: 600;
+    font-size: 30px;
+    color:white;
+    position: absolute;
+    margin-left: 900px;
+    margin-top: 230px;
+    letter-spacing: 1px;
+    overflow: hidden;
+}
+.menu{
+    background-color: rgb(234, 239, 242);
+    padding: 3px;
+    display: flex;
+    /* justify-content:space-around; */
+}
+.menu div {
+  padding: 8px;
+  padding-right:10px;
+  border-right: 1px solid white; 
+  margin-left:90px;
+  color:  rgb(100, 103, 105);
+  font-size: medium;
+}
+.line{
+    margin-top: 3px;
+    border-bottom: 3px solid rgb(234, 239, 242); 
+}
+.body{
+  display: flex;
+  justify-content: space-between;
+}
+.top, .bottom{
+  padding:30px;
+}
+.top{
+  margin-left: 30px;
+}
+.bottom{
+  margin-right: 90px;
+}
+
+.home{
+  border: 1px solid rgb(220, 216, 216);
+  padding: 13px;
+  border-radius: 8px;
+  width:859px;
+}
+.home>div>h3{
+  color: rgb(61, 198, 61);
+}
+.home>div>p{
+  font-size: 15px;
+}
+
+.products{
+  border: 1px solid rgb(220, 216, 216);
+  padding: 0px 13px 13px 25px;
+  border-radius: 8px;
+  margin-top: 19px;
+  width:850px;
+}
+.container{
+  display:flex;
+  padding: 10px 10px 10px 0px;
+}
+.description{
+  padding-left: 24px;
+  margin-top: -20px;
+  font-size: 14px;
+}
+.products>div>h3{
+  color: rgb(61, 198, 61);
+  font-size: 28px;
+}
+.description>p{
+  color: rgb(69, 66, 66);
+}
+.news{
+  border: 1px solid rgb(220, 216, 216);
+  padding: 13px;
+  border-radius: 8px;
+  width:200px;
+  background-color:rgb(240, 237, 237) ;
+}
+.news>div{
+  margin-bottom: 27px;
+}
+.news>div>p{
+  line-height: 0.0;
+  font-size: 14px;
+}
+.news>div>p>a{
+  color: rgb(61, 198, 61);
+}
+.news>div>h3{
+  color: rgb(61, 198, 61);
+}
+.messages{
+  border: 1px solid rgb(220, 216, 216);
+  padding: 13px;
+  border-radius: 8px;
+  margin-top: 19px;
+  width:200px;
+}
+.messages>div>h3{
+  color: rgb(61, 198, 61);
+}
+.messages>div>p{
+  line-height: 1.0;
+  font-size: 15px;
+}
+.date{
+  margin-bottom: -15px;
+  font-weight: 650;
+}
+.messages>div>p>a{
+  color: rgb(61, 198, 61);
+}
+/* foo{ter */
+footer{
+   background-color: rgb(61, 198, 61);
+   padding: 50px;
+   display: flex;
+   justify-content: center;
+   font-size: 15px;
+}
+
+
+
